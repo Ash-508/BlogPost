@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for
 
 dummyPosts = [
     {
-        'author' : 'Girish',
+        'author' : ['Girish','Ashwin']
         'date'   : '17th July 2022',
         'title'  : 'Random Gibberish',
     },
